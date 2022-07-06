@@ -7,6 +7,10 @@
       "dom.iterable",
       "esnext"
     ],
+    "paths": {
+      "@/*": ["*"],
+      "@components/*": ["./src/components"]
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
